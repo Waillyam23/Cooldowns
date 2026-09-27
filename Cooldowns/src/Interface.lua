@@ -203,13 +203,13 @@ function Cool.UI.Draw(key)
 
       if set.showFrame then
         -- Add black 1px border around the icon
-        local border = WM:CreateControl(key .. "_Border", c, CT_BACKDROP)
-        border:SetDimensions(scaleBase, scaleBase)
-        border:SetAnchor(CENTER, c, CENTER, 0, 0)
-        border:SetCenterColor(0, 0, 0, 0)
-        border:SetEdgeColor(0, 0, 0, 1)
-        border:SetDrawLevel(4)
-        border:SetEdgeTexture("", 1, 1, 1, 1)
+        --local border = WM:CreateControl(key .. "_Border", c, CT_BACKDROP)
+        --border:SetDimensions(scaleBase, scaleBase)
+        --border:SetAnchor(CENTER, c, CENTER, 0, 0)
+        --border:SetCenterColor(0, 0, 0, 0)
+        --border:SetEdgeColor(0, 0, 0, 1)
+        --border:SetDrawLevel(4)
+        --border:SetEdgeTexture("", 1, 1, 1, 1)
 
         local f = WM:CreateControl(key .. "_Frame", c, CT_TEXTURE)
         if set.procType == "passive" then
